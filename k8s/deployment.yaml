@@ -55,11 +55,7 @@ spec:
     spec:
       containers:
       - name: web
-<<<<<<< HEAD
-        image: wellingtonroch/kube-news:v1 #{{TAG}}
-=======
         image: wellingtonroch/kube-news:v1
->>>>>>> 0c766830221918084f355f0ebfb139b3e719ac43
         ports:
           - containerPort: 8080
         env:
@@ -84,12 +80,4 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
-<<<<<<< HEAD
   type: LoadBalancer
-=======
-  type: LoadBalancer 
-    
-    
-    
-    
->>>>>>> 0c766830221918084f355f0ebfb139b3e719ac43
